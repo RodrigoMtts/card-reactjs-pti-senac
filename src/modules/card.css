@@ -1,0 +1,56 @@
+.card {
+  width: 140px;
+  height: 180px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card img {
+  width: 100px;
+}
+
+.card * {
+  margin: 5px;
+}
+
+.card p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.flex-box-horizontal-betwen {
+  display: flex;
+  width: 135px;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.icon {
+  color: white;  
+  background-color: #a0c4fe;
+}
+
+/*HOVER*/
+
+.card:hover {
+  background-color: #a0c4fe;
+}
+
+.card:hover .prate-name {
+  color: white
+}
+
+.card:hover .price {
+  color: white
+}
+
+.card:hover .icon {
+  color: #a0c4fe;  
+  background-color: white;
+}
