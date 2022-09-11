@@ -1,6 +1,6 @@
 {
   "name": "react-senac-sp-pti",
-  "description": "Criar um card em ReactJs - Projeto do curso análise e desenvolvimento de sistemas - Senac",
+  "description": "Criado um card em ReactJs - Projeto do curso análise e desenvolvimento de sistemas - Senac",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
